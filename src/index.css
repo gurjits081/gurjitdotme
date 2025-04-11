@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+p, span, #hello {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div > span {
+  font-family: "Fragment Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer > p {
+  font-family: "Fragment Mono", monospace;
+  font-size: 14px;
+}
+
+@media (min-width: 640px) and (max-width: 1999px) {
+  #home {
+    width: 50%;
+  }
+}
